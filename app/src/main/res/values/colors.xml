@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9D2124</color>
+    <color name="colorPrimaryDark">#5E1416</color>
+    <color name="colorAccent">#dc7f81</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="product_list_title">#363636</color>
+    <color name="product_list_desc">#717171</color>
+    <color name="in_stock_color">#A0A0A0</color>
+    <color name="out_stock_color">#5D5D5D</color>
+    <color name="hint_color">#bdbdbd</color>
+    <color name="forgot_pass">#878787</color>
+    <color name="transparent_color_code">#80000000</color>
+    <color name="item_tile_date">#A2A5B1</color>
+    <color name="hint_title">#888888</color>
+    <color name="detail_desc">#9E9E9E</color>
+    <color name="selector_dropdown">#F3F3F3</color>
+    <color name="boundary_color">#C6C6C6</color>
+    <color name="cart_value_bg">#FFF000</color>
+    <color name="app_background_color">#F8F8F8</color>
+    <color name="user_name_color">#cccccc</color>
+    <color name="category_divider">#424240</color>
+    <color name="category_color">#3fb8d5</color>
+    <color name="category_tree_bgcolor">#232325</color>
+    <color name="error_button_bg">#999999</color>
+    <color name="app_bg_color">#fafafa</color>
+    <color name="grey">#ffd3d3d3</color>
+    <color name="remove">#ff7a7a</color>
+    <color name="proceed">#505e69</color>
+    <color name="address_user_name">#747474</color>
+    <color name="address_dto">#9C9C9C</color>
+    <color name="divider_line">#d6d2d2</color>
+    <color name="address_field">#878787</color>
+    <color name="transparent_color_40">#80000000</color>
+    <color name="order_text_color">#656565</color>
+    <color name="order_summary_color">#44BDC8</color>
+    <color name="devider_order_detail">#969696</color>
+    <color name="user_name_sample_color">#646464</color>
+    <color name="bottom_line">#4594FB</color>
+    <color name="marquee_color">#333f4a</color>
+    <color name="dark_blue">#3d5b6a</color>
+    <color name="out_of_stock_dull">#20000000</color>
+    <color name="product_name_bg_color">#CC333f4a</color>
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg_color"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/container_header_lyt"
+        layout="@layout/app_actionbar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dim_60"
+        android:layout_alignParentTop="true" />
+
+    <EditText
+        android:id="@+id/edtSearchProduct"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_38"
+        android:layout_below="@+id/container_header_lyt"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/dim_5"
+        android:background="@drawable/search_border"
+        android:clickable="true"
+        android:drawableLeft="@drawable/search"
+        android:drawablePadding="@dimen/dim_8"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:hint="@string/search_for"
+        android:imeOptions="actionDone"
+        android:padding="@dimen/dim_10"
+        android:textColor="@color/product_list_title"
+        android:textSize="@dimen/dim_13"></EditText>
+
+
+    <ListView
+        android:id="@+id/searchAutoCompleteListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/edtSearchProduct"
+        android:layout_marginLeft="@dimen/dim_10"
+        android:layout_marginRight="@dimen/dim_10"
+        android:layout_marginTop="@dimen/dim_10"
+        android:background="@color/white"
+        android:divider="@color/divider_line"
+        android:dividerHeight="0.5dp"></ListView>
+
+</RelativeLayout>

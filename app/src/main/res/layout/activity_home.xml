@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dash_board"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dim_10"
+            android:src="@drawable/agrostar_android_navigation_drawer_home" />
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dim_25"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dim_20"
+            android:layout_toRightOf="@id/home"
+            android:src="@drawable/agrostar_android_mobile_verification_logo" />
+
+        <ImageView
+            android:id="@+id/searchIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dim_25"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dim_20"
+            android:layout_toRightOf="@+id/logo"
+            android:src="@drawable/material_ic_search" />
+
+
+        <ImageView
+            android:id="@+id/optionMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dim_25"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/agrostar_android_settings_profile" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/container_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relativeLayout1"
+        tools:ignore="MergeRootFrame"></FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/transparentView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent_color_40"
+        android:clickable="false"
+        android:focusable="false"
+        android:orientation="vertical"
+        android:visibility="gone"></RelativeLayout>
+</RelativeLayout>

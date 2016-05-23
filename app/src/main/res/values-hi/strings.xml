@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">एग्रोस्टार</string>
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="marquee">
+1 लाख रुपए से ऊपर की खरीद पर 5000 कैशबैक जाओ 50 हजार रुपये से ऊपर की खरीद पर 2000 कैशबैक जाओ , 30 मई 2016 तक मान्य प्रस्ताव।</string>
+    <string name="my_account">सेटिंग्स</string>
+    <string name="help_center"> सहायता केंद्र</string>
+    <string name="language">भाषा</string>
+    <string name="search_for">उत्पादों के लिए खोज</string>
+
+    <string name="lang_dialog_title">भाषा चुनिए</string>
+    <string name="lang_dialog_message">किसी भी एक भाषा का चयन</string>
+    <string name="language_setting">किसी भी एक भाषा का चयन</string>
+
+
+    <!-- Language select dialog -->
+    <string-array name="lang_select">
+        <item>अंग्रेज़ी</item>
+        <item>हिंदी</item>
+    </string-array>
+
+    <string-array name="crop_type">
+        <item>नकदी फ़सल</item>
+        <item>अनाज</item>
+        <item>तिलहन</item>
+        <item>फल</item>
+
+    </string-array>
+
+    <string-array name="products_list">
+<item>
+    <name>कपास</name>
+     <name>चाय</name>
+     <name>कॉफी</name>
+     <name>जूट</name>
+     <name>गन्ना</name>
+</item>
+<item>
+    <name>मक्का</name>
+     <name>चावल</name>
+     <name>गेहूँ</name>
+     <name>जौ</name>
+     <name>चारा</name>
+  </item>
+<item>
+    <name>कैनोला</name>
+     <name>सूरजमुखी</name>
+     <name>सोयाबीन</name>
+     <name>सन का बीज</name>
+     <name>रेपसीड</name>
+</item>
+<item>
+    <name>तरबूज</name>
+     <name>पपीता</name>
+     <name>नारंगी</name>
+     <name>सेब</name>
+     <name>केला</name>
+</item>
+    </string-array>
+</resources>

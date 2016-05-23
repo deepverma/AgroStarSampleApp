@@ -1,0 +1,93 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="dim_30Minus">-25dp</dimen>
+    <dimen name="dim_1">1dp</dimen>
+    <dimen name="dim_2">2dp</dimen>
+    <dimen name="dim_3">3dp</dimen>
+    <dimen name="dim_4">4dp</dimen>
+    <dimen name="dim_5">5dp</dimen>
+    <dimen name="dim_7">7dp</dimen>
+    <dimen name="dim_8">8dp</dimen>
+    <dimen name="dim_10">10dp</dimen>
+    <dimen name="dim_11">11dp</dimen>
+    <dimen name="dim_12">12dp</dimen>
+    <dimen name="dim_13">13dp</dimen>
+    <dimen name="dim_14">14dp</dimen>
+    <dimen name="dim_15">15dp</dimen>
+    <dimen name="dim_16">16dp</dimen>
+    <dimen name="dim_18">18dp</dimen>
+    <dimen name="dim_20">20dp</dimen>
+    <dimen name="dim_22">22dp</dimen>
+    <dimen name="dim_24">24dp</dimen>
+    <dimen name="dim_25">25dp</dimen>
+    <dimen name="dim_32">32dp</dimen>
+    <dimen name="dim_35">35dp</dimen>
+    <dimen name="dim_38">38dp</dimen>
+    <dimen name="dim_40">40dp</dimen>
+    <dimen name="dim_42">42dp</dimen>
+    <dimen name="dim_45">45dp</dimen>
+    <dimen name="dim_48">48dp</dimen>
+    <dimen name="dim_50">50dp</dimen>
+    <dimen name="dim_54">54dp</dimen>
+    <dimen name="dim_60">60dp</dimen>
+    <dimen name="dim_65">65dp</dimen>
+    <dimen name="dim_70">70dp</dimen>
+    <dimen name="dim_75">75dp</dimen>
+    <dimen name="dim_80">80dp</dimen>
+    <dimen name="dim_90">90dp</dimen>
+    <dimen name="dim_100">100dp</dimen>
+    <dimen name="dim_120">120dp</dimen>
+    <dimen name="dim_130">130dp</dimen>
+    <dimen name="dim_140">140dp</dimen>
+    <dimen name="dim_160">160dp</dimen>
+    <dimen name="dim_170">170dp</dimen>
+    <dimen name="dim_180">180dp</dimen>
+    <dimen name="dim_190">190dp</dimen>
+    <dimen name="dim_200">200dp</dimen>
+    <dimen name="dim_210">210dp</dimen>
+    <dimen name="dim_220">220dp</dimen>
+    <dimen name="dim_230">230dp</dimen>
+    <dimen name="dim_235">235dp</dimen>
+    <dimen name="dim_250">250dp</dimen>
+
+<!-- Text size-->
+    <dimen name="dim_12sp">12sp</dimen>
+    <dimen name="dim_14sp">14sp</dimen>
+    <!-- All of the possible tile background colors -->
+    <array name="letter_tile_colors">
+        <item>#f16364</item>
+        <item>#f58559</item>
+        <item>#f9a43e</item>
+        <item>#e4c62e</item>
+        <item>#67bf74</item>
+        <item>#59a2be</item>
+        <item>#2093cd</item>
+        <item>#ad62a7</item>
+    </array>
+
+    <!-- The default letter tile text size -->
+    <dimen name="tile_letter_font_size">22sp</dimen>
+    <!-- The deafult tile size -->
+    <dimen name="letter_tile_size">64dp</dimen>
+
+
+    <dimen name="fab_size_normal">52dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>
+
+    <dimen name="fab_icon_size">18dp</dimen>
+
+    <dimen name="fab_plus_icon_size">14dp</dimen>
+    <dimen name="fab_plus_icon_stroke">2dp</dimen>
+
+    <dimen name="fab_shadow_offset">3dp</dimen>
+    <dimen name="fab_shadow_radius">9dp</dimen>
+
+    <dimen name="fab_stroke_width">1dp</dimen>
+
+    <dimen name="fab_actions_spacing">10dp</dimen>
+    <dimen name="fab_labels_margin">8dp</dimen>
+
+
+</resources>
